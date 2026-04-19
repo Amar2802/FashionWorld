@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 import "./styles.css";
+import "./App.jsx";
 
 const API_BASE = "/api";
 const SESSION_KEY = "fashion_world_session";
