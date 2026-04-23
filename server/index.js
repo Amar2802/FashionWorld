@@ -7,7 +7,7 @@ import cartRoutes from "./routes/cart.js";
 import orderRoutes from "./routes/orders.js";
 
 const app = express();
-const port = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5000;
 
 app.use(cors({
   origin: "https://fashion-world-zeta.vercel.app/",
