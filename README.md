@@ -61,67 +61,7 @@ FashionWorld/
  
 ---
  
-## Getting Started
- 
-### Prerequisites
- 
-- Node.js v18+
-- MongoDB (local or [MongoDB Atlas](https://www.mongodb.com/atlas))
-### 1. Clone the repository
- 
-```bash
-git clone https://github.com/Amar2802/FashionWorld.git
-cd FashionWorld
-```
- 
-### 2. Set up environment variables
- 
-```bash
-cp .env.example .env
-```
- 
-Open `.env` and fill in your values:
- 
-```env
-MONGO_URI=your_mongodb_connection_string
-PORT=5000
-```
- 
-### 3. Install dependencies
- 
-**Frontend:**
-```bash
-npm install
-```
- 
-**Backend:**
-```bash
-cd server
-npm install
-```
- 
-### 4. Seed the database (optional)
- 
-```bash
-cd server
-node seed.js
-```
- 
-### 5. Run the app
- 
-**Backend** (from `/server`):
-```bash
-npm start
-```
- 
-**Frontend** (from root):
-```bash
-npm run dev
-```
- 
-- Frontend: [http://localhost:5173](http://localhost:5173)
-- Backend API: [http://localhost:5000](http://localhost:5000)
----
+
  
 ## Deployment
  
@@ -136,8 +76,8 @@ npm run dev
 ---
  
 ## Screenshots
- 
-> _Add screenshots or a demo GIF of the app here._
+ <img width="1210" height="557" alt="Screenshot 2026-04-23 164559" src="https://github.com/user-attachments/assets/e1d5228d-25ad-4646-8e9b-6a5fb52f3b98" />
+
  
 ---
  
