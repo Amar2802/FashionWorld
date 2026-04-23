@@ -34,11 +34,10 @@ app.use((error, req, res, next) => {
   res.status(error.status || 500).json({ message: error.message || "Server error" });
 });
 
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
+
 connectDb()
-  .then(() => {
-    app.listen(port, () => console.log(`Fashion World API running on port ${port}`));
-  })
-  .catch((error) => {
-    console.error("Database connection failed", error);
-    process.exit(1);
-  });
+  .then(() => console.log("MongoDB connected"))
+  .catch((error) => console.error("Database connection failed", error));
