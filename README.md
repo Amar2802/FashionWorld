@@ -75,7 +75,13 @@ FashionWorld/
  
 ---
  
-## Screenshots
+## Screenshots-
+<img width="1349" height="595" alt="Screenshot 2026-04-23 164418" src="https://github.com/user-attachments/assets/f035584d-2723-4fc7-8a63-7d1712beda65" />
+
+<img width="1351" height="589" alt="Screenshot 2026-04-23 164432" src="https://github.com/user-attachments/assets/b85d9758-7104-4f22-ab9b-05b385616a23" />
+
+<img width="1274" height="594" alt="Screenshot 2026-04-23 164520" src="https://github.com/user-attachments/assets/8846d116-d2f1-4389-a4de-96b7c5685981" />
+
  <img width="1210" height="557" alt="Screenshot 2026-04-23 164559" src="https://github.com/user-attachments/assets/e1d5228d-25ad-4646-8e9b-6a5fb52f3b98" />
 
  
