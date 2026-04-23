@@ -10,7 +10,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 app.use(cors({
-  origin: "https://your-frontend.vercel.app",
+  origin: "https://fashion-world-zeta.vercel.app/",
   credentials: true
 }));
 
