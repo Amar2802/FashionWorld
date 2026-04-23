@@ -1,8 +1,10 @@
 import mongoose from "mongoose";
 
-export async function connectDb() {
-  const uri = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/fashion-world";
-  mongoose.set("strictQuery", true);
-  await mongoose.connect(uri);
-  console.log("MongoDB connected");
-}
+export const connectDb = async () => {
+  try {
+    await mongoose.connect(process.env.MONGO_URI);
+    console.log("MongoDB connected");
+  } catch (error) {
+    console.error("MongoDB connection error:", error);
+  }
+};
