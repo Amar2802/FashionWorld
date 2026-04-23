@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 import "./styles.css";
-import "./App.jsx";
+// import "./App.jsx";
 
 const API_BASE = import.meta.env.VITE_API_URL + "/api";
 const SESSION_KEY = "fashion_world_session";
